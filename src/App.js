@@ -16,7 +16,6 @@ function App() {
         {/* FEED */}
         <Feed/>
         {/* RIGHT SIDE */}
-        
       </div>
     </div>
   );

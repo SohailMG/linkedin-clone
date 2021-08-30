@@ -15,7 +15,7 @@ const Feed = () => {
 
   // RENDERING ALL POSTS FROM FIREBASE 
   useEffect(() => {
-    db.collection("posts").onSnapshot((snapshot) =>
+    db.collection("posts").orderBy("timestamp", "desc").onSnapshot((snapshot) =>
       setPosts(
         snapshot.docs.map((doc) => ({
           id: doc.id,
@@ -35,6 +35,7 @@ const Feed = () => {
       timestamp:firebase.firestore.FieldValue.serverTimestamp()
 
     });
+    setpostInput("")
   };
   return (
     <div className="feed">
