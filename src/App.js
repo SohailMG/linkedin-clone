@@ -7,6 +7,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Login from "./Login";
 import { auth } from "./firebase";
+import RightWidget from "./RightWidget";
 
 function App() {
   const user = useSelector(seletUser);
@@ -41,6 +42,8 @@ function App() {
           <Sidebar />
           <Feed />
           {/* TODO: RIGHT WIDGET */}
+          <RightWidget/> 
+          
 
         </div>
       )}

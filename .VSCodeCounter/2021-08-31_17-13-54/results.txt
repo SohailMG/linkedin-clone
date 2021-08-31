@@ -1,0 +1,61 @@
+Date : 2021-08-31 17:13:54
+Directory : /Users/sohailgsais/react-apps/tutorial/linkedin-clone
+Total : 29 files,  39502 codes, 53 comments, 125 blanks, all 39680 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |     38,618 |          0 |          3 |     38,621 |
+| JavaScript |         14 |        550 |         50 |         75 |        675 |
+| CSS        |         10 |        289 |          3 |         23 |        315 |
+| Markdown   |          1 |         25 |          0 |         20 |         45 |
+| HTML       |          1 |         20 |          0 |          4 |         24 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                               |         29 |     39,502 |         53 |        125 |     39,680 |
+| public                                                                          |          2 |         45 |          0 |          5 |         50 |
+| src                                                                             |         24 |        839 |         53 |         98 |        990 |
+| src/app                                                                         |          1 |          7 |          0 |          2 |          9 |
+| src/features                                                                    |          1 |         22 |          2 |          8 |         32 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                        | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/README.md                 | Markdown   |         25 |          0 |         20 |         45 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/package-lock.json         | JSON       |     38,553 |          0 |          1 |     38,554 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/package.json              | JSON       |         40 |          0 |          1 |         41 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/public/index.html         | HTML       |         20 |          0 |          4 |         24 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/public/manifest.json      | JSON       |         25 |          0 |          1 |         26 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/App.css               | CSS        |         12 |          0 |          1 |         13 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/App.js                | JavaScript |         44 |          2 |          8 |         54 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Feed.css              | CSS        |         37 |          0 |          2 |         39 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Feed.js               | JavaScript |         90 |          2 |          4 |         96 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Header.css            | CSS        |         37 |          1 |          3 |         41 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Header.js             | JavaScript |         43 |          0 |          7 |         50 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/HeaderOption.css      | CSS        |         20 |          0 |          1 |         21 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/HeaderOption.js       | JavaScript |         19 |          0 |          2 |         21 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/InputOption.css       | CSS        |         15 |          0 |          0 |         15 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/InputOption.js        | JavaScript |         11 |          0 |          3 |         14 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Login.css             | CSS        |         41 |          0 |          4 |         45 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Login.js              | JavaScript |        104 |          2 |          4 |        110 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Post.css              | CSS        |         27 |          0 |          2 |         29 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Post.js               | JavaScript |         29 |          0 |          5 |         34 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/RightWidget.css       | CSS        |          0 |          0 |          1 |          1 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/RightWidget.js        | JavaScript |          9 |          0 |          4 |         13 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Sidebar.css           | CSS        |         85 |          2 |          6 |         93 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/Sidebar.js            | JavaScript |         47 |          0 |          6 |         53 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/app/store.js          | JavaScript |          7 |          0 |          2 |          9 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/features/userSlice.js | JavaScript |         22 |          2 |          8 |         32 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/firebase.js           | JavaScript |         15 |          8 |          6 |         29 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/index.css             | CSS        |         15 |          0 |          3 |         18 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/index.js              | JavaScript |         16 |          3 |          3 |         22 |
+| /Users/sohailgsais/react-apps/tutorial/linkedin-clone/src/serviceWorker.js      | JavaScript |         94 |         31 |         13 |        138 |
+| Total                                                                           |            |     39,502 |         53 |        125 |     39,680 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -69,11 +69,6 @@ const Feed = () => {
             Icon={CalendarViewDay}
             color="green"
           />
-          <InputOption
-            title="Write article"
-            Icon={CalendarViewDay}
-            color="green"
-          />
         </div>
       </div>
       {/* POSTS */}
