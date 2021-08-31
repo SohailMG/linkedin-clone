@@ -33,19 +33,15 @@ function App() {
   },[])
   return (
     <div className="app">
-      {/* HEADER */}
       <Header />
-      {/* LOGIN PAGE */}
       {!user ? (
         <Login />
       ) : (
-        // MAIN BODY
         <div className="app-body">
-          {/* SIDEBAR */}
           <Sidebar />
-          {/* FEED */}
           <Feed />
-          {/* RIGHT SIDE */}
+          {/* TODO: RIGHT WIDGET */}
+
         </div>
       )}
     </div>
