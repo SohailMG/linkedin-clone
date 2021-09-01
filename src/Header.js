@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="header-search">
                     {/* SEARCH ICON */}
                     <SearchIcon/>
-                    <input type="text" />
+                    Search<input type="text" />
                 </div>
 
             </div>
@@ -39,7 +39,7 @@ const Header = () => {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs"/>
                 <HeaderOption Icon={ChatIcon} title="Messaging"/>
                 <HeaderOption Icon={NotificationsIcon} title="Notifications"/>
-                <HeaderOption avatar={true} title={user?user.displayName:''} onClick={logoutUser}/>
+                <HeaderOption avatar={true} title={user?'Logout':'Account'} onClick={logoutUser}/>
             </div>
             
         </div>

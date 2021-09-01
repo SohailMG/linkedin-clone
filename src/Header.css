@@ -23,6 +23,7 @@
 .header-search{
     padding: 10px;
     display: flex;
+    width: 280px;
     align-items: center;
     border-radius: 5px;
     height: 22px;

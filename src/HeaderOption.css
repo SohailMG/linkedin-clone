@@ -14,8 +14,8 @@
     font-size: 12px;
     font-weight: 400;
 }
-.headerOption-Icon{
+.headerOption-icon{
     object-fit: contain;
     height: 25px !important;
-    width: 25px;
+    width: 25px !important;
 }

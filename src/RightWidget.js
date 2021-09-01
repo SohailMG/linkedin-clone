@@ -10,7 +10,7 @@ const RightWidget = () => {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/top-headlines?country=gb&apiKey=9dcdaf71878849749e57a733cfec0884"
+        "https://gnews.io/api/v4/top-headlines?&token=9890613dffc1b5cf47b1635f95d1cc5e&country=gb"
       )
       .then((response) => {
         setnewsArticles(response.data.articles);
@@ -21,7 +21,7 @@ const RightWidget = () => {
       });
   }, []);
 
-  const newsletter = (headline, subtitle,id) => (
+  const newsletter = (headline, subtitle, id) => (
     <div className="widget-article">
       <div className="widget-article-left">
         <FiberManualRecord />
@@ -41,8 +41,10 @@ const RightWidget = () => {
       <FlipMove>
         {newsArticles
           .sort(() => Math.random() - Math.random())
-          .slice(0, 3)
-          .map((article,index) => newsletter(article.title, article.description,index))}
+          .slice(0, 4)
+          .map((article, index) =>
+            newsletter(article.title, article.description, index)
+          )}
       </FlipMove>
     </div>
   );
