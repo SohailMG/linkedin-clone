@@ -34,7 +34,7 @@ const Feed = () => {
   // STORING NEW POST TO db
   const sendPost = (e) => {
     e.preventDefault();
-    console.log(user);
+    
     db.collection("posts").add({
       name: user.displayName,
       description: user.email,
@@ -48,7 +48,7 @@ const Feed = () => {
     <div className="feed">
       <div className="feed-inputcontainer">
         <div className="feed-postcontainer">
-        <Avatar src={user.photoUrl}>{user.displayName[0]}</Avatar>
+        <Avatar src={user?.photoUrl}>{user?.email[0]}</Avatar>
 
         <div className="feed-input">
           <CreateIcon />

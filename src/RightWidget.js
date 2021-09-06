@@ -14,7 +14,7 @@ const RightWidget = () => {
       )
       .then((response) => {
         setnewsArticles(response.data.articles);
-        console.log(newsArticles);
+        
       })
       .catch((error) => {
         console.log(error);

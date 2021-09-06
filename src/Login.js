@@ -15,14 +15,15 @@ const Login = () => {
   const loginToApp = (e) => {
     e.preventDefault();
     auth.signInWithEmailAndPassword(email, password).then((userAuth) =>{
+      console.log(userAuth.user)
       dispatch(
         login({
           email: userAuth.user.email,
           uid: userAuth.user.uid,
           displayName: userAuth.user.displayName,
-          profileUrl: userAuth.user.photoUrl,
+          photoUrl: userAuth.user.photoURL,
         })
-      )
+      );
     }).catch((err) =>{
         alert(err.message);
     })

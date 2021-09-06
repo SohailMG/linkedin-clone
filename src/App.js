@@ -8,30 +8,34 @@ import Sidebar from "./Sidebar";
 import Login from "./Login";
 import { auth } from "./firebase";
 import RightWidget from "./RightWidget";
+import { useAuthState } from "react-firebase-hooks/auth";
+import Loading from "./Loading";
 
 function App() {
-  const user = useSelector(seletUser);
+  // const user = useSelector(seletUser);
+  const [user, loading] = useAuthState(auth);
   const dispatch = useDispatch();
   useEffect(() => {
-    auth.onAuthStateChanged(userAuth=> {
+    auth.onAuthStateChanged((userAuth) => {
       if (userAuth) {
         // USER IS LOGGED IN
-        dispatch(login({ 
-          email: userAuth.email,
-          uid: userAuth.uid,
-          displayName: userAuth.displayName,
-          photoUrl: userAuth.photoURL
-
-        }))
-        
-      }else{
+        dispatch(
+          login({
+            email: userAuth.email,
+            uid: userAuth.uid,
+            displayName: userAuth.displayName,
+            photoUrl: userAuth.photoURL,
+          })
+        );
+      } else {
         // USER IS NOT LOGGED OUT
-        dispatch(logout())
-
+        dispatch(logout());
       }
-    })
-
-  },[])
+    });
+  }, []);
+  if (loading) {
+    return <Loading />;
+  }
   return (
     <div className="app">
       <Header />
@@ -42,9 +46,7 @@ function App() {
           <Sidebar />
           <Feed />
           {/* TODO: RIGHT WIDGET */}
-          <RightWidget/> 
-          
-
+          <RightWidget />
         </div>
       )}
     </div>
